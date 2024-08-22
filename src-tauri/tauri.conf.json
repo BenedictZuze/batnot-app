@@ -1,10 +1,10 @@
 {
   "productName": "batnot",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "identifier": "com.batnot.app",
   "build": {
-    "beforeDevCommand": "bun run dev --host",
-    "devUrl": "http://192.168.102.225:1420",
+    "beforeDevCommand": "bun run dev",
+    "devUrl": "http://localhost:1420",
     "beforeBuildCommand": "bun run build",
     "frontendDist": "../dist"
   },
